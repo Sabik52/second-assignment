@@ -14,13 +14,41 @@
     font-size: 18px;
     
 }
-/* main section contents */
-
+/* main-section-content */
 .main-section{
+    position: absolute;
     display: flex;
     margin: 5%;
     width: 80%;
 }
+.main-content{
+    margin-right: 10px;
+}
+.main-content h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+..main-content p{
+    font-size: 16px;
+    
+}
 .main-image img{
-    width: 450px;
+    width: 440px;
+    height: 414px;
+   background-image: url(images/Circle\ design.svg);
+}
+button{
+    padding: 10px 24px;
+    background-color:#E02C6D;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.fas .fa-arrow-right{
+    margin-left: 5px;
 }
