@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /* header section styles */
 
 .header-menu{
@@ -49,8 +53,9 @@
     transition: 1s ;
 }
 button{
+    margin-top: 10px;
     padding: 10px 24px;
-    background-color:#E02C6D;
+    background-color:#00bdbb;
     color: white;
     border: none;
     border-radius: 40px;
@@ -60,6 +65,16 @@ button{
 }
 .fas .fa-arrow-right{
     margin-left: 5px;
+}
+
+.logos{
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
 }
 
 
@@ -117,10 +132,41 @@ span{
     display: block;
     text-align: right;
     text-decoration: none;
-    color: #E02C6D;
+    color: #00bdbb;
     font-size: 16px;
     font-weight: 700;
     font-family: 'Poppins';
     margin-bottom: 50px;
     
+}
+.last-content{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.content img{
+    height: 150px;
+    width: 300px;
+}
+.content h1{
+font-size: 50px;
+font-weight: 700;
+}
+
+
+.footer-section{
+    background-color: #0A0826;
+    text-align: center;
+    padding: 40px;
+    color: white;
+
+}
+.footer-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    padding-bottom: 10px;
+    
+}
+.footer-status{
+    font-size: 14px;
+    font-weight: 700;
 }
