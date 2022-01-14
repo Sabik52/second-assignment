@@ -1,10 +1,11 @@
-/* Header-section */
+/* header section styles */
 
 .header-menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 5%;
+    
     
 }
 .menu-item ul li {
@@ -14,12 +15,15 @@
     font-size: 18px;
     
 }
-/* main-section-content */
+
+/* main section styles */
+
 .main-section{
-    position: absolute;
+    
     display: flex;
     margin: 5%;
     width: 80%;
+    padding-bottom: 70px;
 }
 .main-content{
     margin-right: 10px;
@@ -30,7 +34,7 @@
     font-weight: 700;
     margin-bottom: 0;
 }
-..main-content p{
+.main-content p{
     font-size: 16px;
     
 }
@@ -38,6 +42,11 @@
     width: 440px;
     height: 414px;
    background-image: url(images/Circle\ design.svg);
+  
+}
+.main-image img:hover{
+    transform: rotateX(180deg) ;
+    transition: 1s ;
 }
 button{
     padding: 10px 24px;
@@ -51,4 +60,54 @@ button{
 }
 .fas .fa-arrow-right{
     margin-left: 5px;
+}
+
+
+/* product images styles */
+.blogs{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    background: #AAAAAA;;
+   
+}
+.blog-item{
+    margin: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+   
+}
+.item-image{
+    width: 300px;
+    height: 256px;
+}
+.item-title h3{
+    font-family: 'Poppins';
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.item-price h4{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.fa-star.filled{
+    font-size: 16px;
+    color: #FB8200;
+    
+}
+span{
+    color: #787885;
+    font-weight: 700;
+}
+.fa-star.empty{
+    color: gray;
+}
+.item-rate p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #787885;
 }
