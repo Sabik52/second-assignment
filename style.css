@@ -70,6 +70,7 @@ button{
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     background: #AAAAAA;;
+    margin-bottom: 10px;
    
 }
 .blog-item{
@@ -110,4 +111,16 @@ span{
     font-size: 14px;
     font-weight: 700;
     color: #787885;
+}
+.see-more {
+    margin-right: 5%;
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    margin-bottom: 50px;
+    
 }
