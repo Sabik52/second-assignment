@@ -68,6 +68,11 @@ button{
     font-size: 16px;
     font-weight: 700;
     
+    
+}
+button a{
+    text-decoration: none;
+    color: white;
 }
 .fas .fa-arrow-right{
     margin-left: 5px;
@@ -251,7 +256,6 @@ My content styles
     .main-content{
         width: 100%;
         
-        
     }
     .main-content h1{
         font-size: 30px;
@@ -294,7 +298,10 @@ My content styles
    
 }
 
-/* Tablet Device */
+/*------------
+ Tablet Device
+ -------------- */
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   
     .header-title{
