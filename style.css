@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-/* header section styles */
+/*--------------------
+ header section styles 
+ ------------------------*/
 
 .header-menu{
     display: flex;
@@ -20,7 +22,9 @@
     
 }
 
-/* main section styles */
+/*---------------------
+ main section styles
+ ----------------------- */
 
 .main-section{
     
@@ -57,7 +61,7 @@
 button{
     margin-top: 10px;
     padding: 10px 24px;
-    background-color:#00bdbb;
+    background-color:#E02C6D;
     color: white;
     border: none;
     border-radius: 40px;
@@ -69,6 +73,9 @@ button{
     margin-left: 5px;
 }
 
+/*-----------------
+ logos Styles
+ ---------------- */
 .logos{
     margin-left: 5%;
     display: grid;
@@ -80,7 +87,9 @@ button{
 }
 
 
-/* product images styles */
+/*----------------------
+ product images styles
+ ----------------------- */
 .blogs{
     margin: 5%;
     display: grid;
@@ -123,7 +132,7 @@ button{
     font-weight: 400;
 }
 .fa-star.filled{
-    font-size: 16px;
+    font-size: 14px;
     color: #FB8200;
     
 }
@@ -144,14 +153,17 @@ span{
     display: block;
     text-align: right;
     text-decoration: none;
-    color: #00bdbb;
+    color: #E02C6D;
     font-size: 16px;
     font-weight: 700;
     font-family: 'Poppins';
     margin-bottom: 50px;
     
 }
-/* last content styles */
+/*---------------- 
+My content styles
+------------------ */
+
 .content-item{
     display: flex;
     margin: 5%;
@@ -161,16 +173,14 @@ span{
    margin-right: 30px;
     height: 400px;
     width: 600px;
-    
     border-radius: 10px;
 }
 .right-content{
     padding-top: 50px;
     
 }
-.right-content h4{
-    pad
-}
+
+
 .right-content h2{
     padding-top: 10px;
     font-size: 40px;
@@ -181,7 +191,9 @@ span{
 }
 
 
-/* footer sections styles */
+/*-----------------
+ footer sections styles
+ ---------------------- */
 
 .footer-section{
     background-color: #0A0826;
@@ -199,7 +211,25 @@ span{
 .footer-status{
     font-size: 14px;
     font-weight: 700;
+    font-family: 'Manrope', sans-serif;
 }
+.social-icons{
+    font-size: 20px;
+    margin-top: 10px;
+    justify-content: center;
+    
+    
+}
+.social-icons .fab{
+    margin-right: 10px ;
+   background-color: rgb(27, 37, 80);
+    
+    padding: 10px;
+    border-radius: 30px 30px;
+}
+/*----------------------------
+ Mobile Device Responsive
+ ---------------------------*/
 
 @media only screen and (max-width: 500px){
     .header-menu{
@@ -236,15 +266,44 @@ span{
         margin-bottom: 20px;
     }
     .logos{
-        grid-template-columns: repeat(3, 1fr);
-        
+        grid-template-columns: repeat(4, 1fr);
         justify-content: center;
+        width: 100%;
     }
     .blogs{
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
+        justify-content: center;
         
+    }
+    .content-item{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .content-item img{
+        height: 190px;
+        width: 300px;
+       
+    }
+    .right-content{
+        text-align: center;
     }
 
    
+}
+
+/* Tablet Device */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  
+    .header-title{
+        text-align: center;
+    }
+ 
+  .blogs{
+      grid-template-columns: repeat(2, 1fr);
+      width: 100%;
+  }
+
 }
